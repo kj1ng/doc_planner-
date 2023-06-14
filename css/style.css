@@ -1,0 +1,194 @@
+@font-face {
+    font-family: Helvetica-Neue;
+    src: url('/font/Helvetica_Neue_Medium.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica-Neue;
+}
+
+h2, h3{
+  color:#00C3A5
+}
+
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+nav{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav img{
+width: 250px;
+}
+
+.about-span{
+    color:#00C3A5
+}
+
+.central0{
+    display: flex;
+    margin: 80px 30px 30px 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.central{
+    display: flex;
+    margin: 35px 120px;
+    padding-right: 35px;
+}
+ 
+.central_logo{
+    width: 60px;
+    height: 60px;
+} 
+
+.container_global{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.widget h2{
+   
+    font-family: Arial, Helvetica, sans-serif;
+   color: whitesmoke;
+}
+
+.patients{
+    flex-basis: 22%;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 20px;
+    background-color: #00CCB1;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+.patients .btn-secondary{
+background-color: #00CCB1;
+}
+
+.doctors{
+    flex-basis: 22%;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 20px;
+    background-color: #3D83DF;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+
+.doctors .btn-secondary{
+    background-color: #3D83DF;
+    }
+
+.clinics{
+    flex-basis: 22%;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 20px;
+    background-color: #1B2734;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+
+.clinics .btn-secondary{
+    background-color: #1B2734;
+    }
+
+.container2{
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.small_image{
+    width: 130px;
+    padding: 20px
+}
+
+.stack_images{
+width: 550px;
+}
+
+.btn btn-primary{
+    background-color: #3D83DF;
+}
+
+.platform_details{
+display: flex;
+background-color: #D0FAF4;
+padding-left: 150px;
+padding-right: 150px;
+}
+
+.left{
+    margin: 50px 0;
+}
+
+.right{
+    margin: 20px 0;
+}
+
+.cropped{
+    position: relative;
+    top: 65px;
+}
+
+.location_spacer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    
+}
+
+.location_blocks{
+   display: flex;
+   justify-content: center;
+   margin-left: 250px;
+   margin-bottom: 100px;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-foot{
+    display: flex;
+   
+}
+
+
+.row-join{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.largebutton{
+    margin-top: 40px;
+}
