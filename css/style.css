@@ -1,7 +1,11 @@
+/*Adding New Font*/
+
 @font-face {
     font-family: Helvetica-Neue;
     src: url('/font/Helvetica_Neue_Medium.ttf');
 }
+
+/*Font Styling*/
 
 *{
     margin: 0;
@@ -10,9 +14,12 @@
     font-family: Helvetica-Neue;
 }
 
+/*Header text colors*/
 h2, h3{
   color:#00C3A5
 }
+
+/*Nav bar Styling*/
 
 ul li{
     display: inline-block;
@@ -40,6 +47,8 @@ width: 250px;
     color:#00C3A5
 }
 
+/*Central about us styling*/
+
 .central0{
     display: flex;
     margin: 80px 30px 30px 30px;
@@ -59,11 +68,13 @@ width: 250px;
     height: 60px;
 } 
 
+/*Styling for country widgets */
+
 .container_global{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .widget h2{
@@ -113,6 +124,8 @@ background-color: #00CCB1;
     background-color: #1B2734;
     }
 
+    /*Styling for partner countries*/
+
 .container2{
     margin: 40px;
     display: flex;
@@ -133,6 +146,8 @@ width: 550px;
     background-color: #3D83DF;
 }
 
+/*Styling for locations*/
+
 .platform_details{
 display: flex;
 background-color: #D0FAF4;
@@ -150,7 +165,7 @@ padding-right: 150px;
 
 .cropped{
     position: relative;
-    top: 65px;
+    top: 88px;
 }
 
 .location_spacer{
@@ -165,7 +180,7 @@ padding-right: 150px;
 .location_blocks{
    display: flex;
    justify-content: center;
-   margin-left: 250px;
+   margin-left: 75px;
    margin-bottom: 100px;
 }
 
@@ -192,3 +207,36 @@ padding-right: 150px;
 .largebutton{
     margin-top: 40px;
 }
+
+
+.square{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    font: 0.3rem;
+    margin: 20px;
+
+}
+
+.square2{
+  position: relative;
+  bottom: 15px;
+}
+  
+
+.square4{
+    position: relative;
+    bottom: 15px;
+  }
+   
+
+
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+
+
